@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>SuperDia2 Empresa_MiClaro</title>
+    <div class="header">
+      <h1>Super App</h1>
+    </div>
+  </head>
+  <body>
+
+    
+        <h2>Component ubication example</h2>
+        <pre>
+         <code> 
+          my.getLocation({
+            success(res) {
+              my.hideLoading();
+              console.log(res)
+              that.setData({
+                hasLocation: true,
+                location: formatLocation(res.longitude, res.latitude)
+              })
+            },
+            fail() {
+              my.hideLoading();
+              my.alert({ title: 'location failed' });
+            },
+          })
+          </code>
+          </pre>
+
+    <footer>
+       <p class="footertext"> Super App by WeLiveFromArt</p> 
+    </footer>
+  </body>
+</html>

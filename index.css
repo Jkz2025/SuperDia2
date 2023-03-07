@@ -1,0 +1,20 @@
+.header {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.footertext {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: whitesmoke;
+}
